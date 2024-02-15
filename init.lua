@@ -289,6 +289,16 @@ require('lazy').setup({
 -- See `:help vim.o`
 -- NOTE: You can change these options as you wish!
 
+-- Setting tabstop to 4. Indentation is a real tab instead of spaces with a width of 4 spaces
+vim.o.tabstop = 4
+--softtabstop
+vim.o.softtabstop = 0
+--shiftwidth
+vim.o.shiftwidth = 4
+--expandtab
+vim.o.expandtab = 0
+
+
 -- Set highlight on search
 vim.o.hlsearch = false
 
